@@ -1,4 +1,4 @@
-# Vite + Vue 3 + Macaron example
+# Vite + Vanilla HTML/JS + Macaron example
 
 ## Run
 
