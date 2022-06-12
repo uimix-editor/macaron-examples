@@ -1,13 +1,15 @@
 {
   "name": "vite",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
+  "dependencies": {},
   "devDependencies": {
+    "@macaron-elements/loader-vite": "^0.1.0",
     "vite": "^2.9.9"
   }
 }
