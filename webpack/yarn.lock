@@ -47,20 +47,21 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@macaron-elements/compiler@^0.2.0":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@macaron-elements/compiler/-/compiler-0.1.1.tgz#17895986f951a4d939741089e965d8ae55797834"
-  integrity sha512-c9c73kgCKCtE24HvfIVHO/bPlTiqBEtqhI+5+VVjjW8QqVf1cjJ6suC7Znf+zQJdzFPStX0DEywslHkYKaz7rg==
+"@macaron-elements/compiler@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@macaron-elements/compiler/-/compiler-0.3.0.tgz#ca98f2fbe274fb9b0a206c322748cc4a1b903253"
+  integrity sha512-fvojI2ay9OxW/RCQezscGrcNg4dlD4HrS8QCsuytJq/QnZJKeuehpY2TcGLZqxRubBPfft2U4MoAr41obOgiIQ==
   dependencies:
     chokidar "^3.5.3"
-    prettier "^2.6.2"
+    prettier "^2.7.1"
     slash "^4.0.0"
 
-"@macaron-elements/loader-webpack@/Users/seanchas116/Repos/macaron/packages/loader-webpack/macaron-elements-loader-webpack-v0.2.0.tgz":
-  version "0.2.0"
-  resolved "/Users/seanchas116/Repos/macaron/packages/loader-webpack/macaron-elements-loader-webpack-v0.2.0.tgz#83499d8ab077f8764dcb7d2cb15fc53bf9df1c1f"
+"@macaron-elements/loader-webpack@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@macaron-elements/loader-webpack/-/loader-webpack-0.3.0.tgz#02c831ce2c9d9139f43b98fe69e7a65635a99b74"
+  integrity sha512-ElXv8mx26FV1UmIkHU92b+qt3ICKvvdR5vMaVFSXjwYsWD0vaA824fX4oiUllfd2RI/58UkKgPKFsoVlqU+2ig==
   dependencies:
-    "@macaron-elements/compiler" "^0.2.0"
+    "@macaron-elements/compiler" "^0.3.0"
 
 "@types/eslint-scope@^3.7.3":
   version "3.7.3"
@@ -856,11 +857,6 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
-
 lru-cache@^4.0.1:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
@@ -1030,7 +1026,7 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-prettier@^2.6.2:
+prettier@^2.7.1:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
