@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@macaron-elements/compiler@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@macaron-elements/compiler/-/compiler-0.1.0.tgz#754976f1cf8d4d3e90f015e43b73cd277b585923"
-  integrity sha512-U91+828SxfsPsfFWGTCn/3xZwLBSaAKxEF4xULvdryVeL5GkQgr6DWUCgwXutIGS1DD/jq4VlXQKKl0oGgx03A==
+"@macaron-elements/compiler@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@macaron-elements/compiler/-/compiler-0.3.0.tgz#ca98f2fbe274fb9b0a206c322748cc4a1b903253"
+  integrity sha512-fvojI2ay9OxW/RCQezscGrcNg4dlD4HrS8QCsuytJq/QnZJKeuehpY2TcGLZqxRubBPfft2U4MoAr41obOgiIQ==
   dependencies:
     chokidar "^3.5.3"
-    prettier "^2.6.2"
+    prettier "^2.7.1"
     slash "^4.0.0"
 
-"@macaron-elements/loader-vite@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@macaron-elements/loader-vite/-/loader-vite-0.1.0.tgz#7bbc56b8ae21f02257782492a09f6269b3c1abe6"
-  integrity sha512-eW42ayFQsvu/Anqt3pYAmz60JL0hctmKejTdiJQHBHZfiM2uVi/RW0MVJcldulXgJWN7orJD0TcNppSmMDmp1Q==
+"@macaron-elements/loader-vite@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@macaron-elements/loader-vite/-/loader-vite-0.3.0.tgz#9d75e55c889c11496274aedcbd7f5791bb0600a7"
+  integrity sha512-r446HasdDmhzIrLmXLexsqHRAUbWvLSwj1Nw9XKNqLw82iJ3+hRMbLEcyeD1wMKa8mwdv28zeROtUMsnmJhJ1g==
   dependencies:
-    "@macaron-elements/compiler" "^0.1.0"
+    "@macaron-elements/compiler" "^0.3.0"
 
 anymatch@~3.1.2:
   version "3.1.2"
@@ -275,10 +275,10 @@ postcss@^8.4.13:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prettier@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
-  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
+prettier@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
+  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
 readdirp@~3.6.0:
   version "3.6.0"
