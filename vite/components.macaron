@@ -68,3 +68,31 @@
     }
   </style>
 </macaron-component>
+<macaron-component name="component-with-image">
+  <macaron-variant x="191" y="216"></macaron-variant>
+  <template>
+    <img src="./macaron.png" id="img" />
+    <div id="div">Component that imports image</div>
+  </template>
+  <style>
+    :host {
+      position: relative;
+      width: 400px;
+      height: 100px;
+      display: block;
+    }
+    #img {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 80px;
+      height: 80px;
+    }
+    #div {
+      position: absolute;
+      top: 40px;
+      left: 114px;
+      font-family: Readex Pro;
+    }
+  </style>
+</macaron-component>
