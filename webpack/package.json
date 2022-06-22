@@ -11,7 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@macaron-elements/loader-webpack": "macaron-elements-loader-webpack-v0.2.0.tgz",
+    "@macaron-elements/loader-webpack": "^0.3.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
