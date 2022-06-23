@@ -17,7 +17,11 @@ export default function Home() {
         </h1>
 
         <div className={styles.description}>
-          <my-button>Click me</my-button>
+          <div className={styles.buttons}>
+            <my-button>Click me</my-button>
+            <my-button type="secondary">Click me</my-button>
+          </div>
+          <component-with-image></component-with-image>
         </div>
       </main>
     </div>

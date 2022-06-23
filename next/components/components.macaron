@@ -21,6 +21,7 @@
   <style>
     :host {
       display: block;
+      font-family: Helvetica;
     }
     #button {
       height: 48px;
@@ -39,7 +40,6 @@
       row-gap: 10px;
       column-gap: 10px;
       color: white;
-      font-family: Readex Pro;
       font-weight: 700;
       font-size: 16px;
       background: #0085ff;
@@ -92,7 +92,8 @@
       position: absolute;
       top: 40px;
       left: 114px;
-      font-family: Readex Pro;
+      font-family: Helvetica;
+      font-size: 16px;
     }
   </style>
 </macaron-component>
